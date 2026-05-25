@@ -546,29 +546,6 @@ article:last-child {
 	margin-bottom: 0;
 }
 
-header.style1 {
-	text-align: center;
-	padding: 3em 0 3em 0;
-}
-
-header.style1 h2 {
-	font-weight: 700;
-	font-size: 2em;
-	letter-spacing: 0.075em;
-	line-height: 1.5em;
-}
-
-header.style1 p {
-	color: #ffffff;
-	display: block;
-	margin: 1.15em 0 0 0;
-	font-size: 1.3em;
-	letter-spacing: 0.075em;
-	line-height: 1.5em;
-}
-
-
-
 /* Image */
 
 .image {
@@ -588,16 +565,6 @@ header.style1 p {
 .image.left {
 	float: left;
 	margin: 0 2em 2em 0;
-}
-
-.image.centered {
-	display: block;
-	margin: 0 0 2em 0;
-}
-
-.image.centered img {
-	margin: 0 auto;
-	width: auto;
 }
 
 .image.featured {
@@ -640,7 +607,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-	background-color: #5F8575;
+	background-color: #E5F0F2 !important;
 }
 
 input[type="button"].large,
@@ -738,40 +705,6 @@ ul {
 
 ul li {
 	padding-left: 0.5em;
-}
-
-ul.style2 {
-	list-style: none;
-	padding-left: 0;
-}
-
-ul.style2 li {
-	border-top: solid 1px #eee;
-	padding: 1.5em 0 0 0;
-	margin: 1.5em 0 0 0;
-}
-
-ul.style2 li:first-child {
-	border-top: 0;
-	padding-top: 0;
-	margin-top: 0;
-}
-
-ul.style3 {
-	list-style: none;
-	padding-left: 0;
-}
-
-ul.style3 li {
-	border-top: solid 1px #eee;
-	padding: 0.5em 0 0 0;
-	margin: 0.5em 0 0 0;
-}
-
-ul.style3 li:first-child {
-	border-top: 0;
-	padding-top: 0;
-	margin-top: 0;
 }
 
 ol {
@@ -892,42 +825,6 @@ ul.actions.special {
 
 .icon.brands:before {
 	font-family: 'Font Awesome 5 Brands';
-}
-
-/* Box */
-
-.box header {
-	margin: 0 0 1.5em 0;
-}
-
-.box header.style1 {
-	position: relative;
-	margin: -0.5em 0 0 0;
-	padding-top: 0;
-}
-
-.box h2 {
-	margin: 0 0 0.75em 0;
-	font-size: 1.15em;
-	letter-spacing: 0.05em;
-}
-
-.box h3 {
-	margin: 0 0 0.5em 0;
-	font-size: 1em;
-	font-weight: 600;
-	letter-spacing: 0.05em;
-}
-
-.box.post-excerpt .image.left {
-	position: relative;
-	top: 0.5em;
-	width: 5em;
-}
-
-.box.post-excerpt h3,
-.box.post-excerpt p {
-	margin-left: 7em;
 }
 
 /* Wrapper */
@@ -1415,13 +1312,13 @@ ul.actions.special {
 }
 
 #back-to-top {
-	display: none;
+	display: flex;
 	position: fixed;
 	bottom: 2em;
 	right: 2em;
 	width: 3em;
 	height: 3em;
-	background: #2f3331;
+	background: #2a2a2a;
 	color: #ffffff;
 	border: none;
 	border-radius: 50%;
@@ -1436,6 +1333,7 @@ ul.actions.special {
 }
 
 #back-to-top:hover {
-	background: #4a6e5e;
+	display: flex;
+	background: #E5F0F2 !important;
 	opacity: 1;
 }
